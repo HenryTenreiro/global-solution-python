@@ -62,6 +62,9 @@ while True:
         case "4":
             print("Parte do ander")
         case "5":
-            print("Parte do henry")
+            if len(usuario) == 0:
+                print("não tem nenhum usuario Cadastrado")
+            else:
+                print(usuario)
         case "6":
-            print("Parte do henry")
+            break
