@@ -58,9 +58,9 @@ while True:
                     case _:
                         print("Por favor, escolha uma opção valida")
         case "3":
-            print("Parte do ander")
+            print("")
         case "4":
-            print("Parte do ander")
+            print("")
         case "5":
             if len(usuario) == 0:
                 print("não tem nenhum usuario Cadastrado")
