@@ -58,9 +58,15 @@ while True:
                     case _:
                         print("Por favor, escolha uma opção valida")
         case "3":
-            print("Parte do ander")
+            print("Não substitua a água por outras bebidas para se hidratar")
+            print("Beber água antes e após as refeições")
+            print("Consumir frutas e vegetais ricas em água")
+            print("Saiba mais em https://www.bbc.com/portuguese/articles/c3gzp123yy0o")
         case "4":
-            print("Parte do ander")
+            print("ingestão de álcool ou café")
+            print("substituir água por isotônico")
+            print("ingerir água somente quando sente sede")
+            print("Saiba mais em https://www.bbc.com/portuguese/articles/c3gzp123yy0o")
         case "5":
             if len(usuario) == 0:
                 print("não tem nenhum usuario Cadastrado")
