@@ -72,5 +72,6 @@ while True:
                 print("não tem nenhum usuario Cadastrado")
             else:
                 print(usuario)
+                print('Voltando ao menu principal...')
         case "6":
             break
