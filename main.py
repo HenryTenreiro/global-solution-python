@@ -14,6 +14,7 @@ while True:
           "5 - Mostrar minha informações de cadastro\n"
           "6 - Sair")
     opcao = input()
+    print("-------------------------------------------------------------")
     match opcao:
         case "1":
             usuario = cadastro_usuario.cadastrar_usuario()
@@ -32,7 +33,7 @@ while True:
                         else:
                             print(f"Quantidade de agua que precisa tomar em litros : {usuario[2] / 1000} litros")
                             print(f"Seria o equivalente há {usuario[2] / 250} copos de agua de 250 ml")
-                            print("Retornando ao menu...")
+                            print("Retornando ao menu de quantidade de agua...")
                     case "2":
                         while True:
                             peso = valida_informacoes.valida_peso()
@@ -59,20 +60,25 @@ while True:
                     case _:
                         print("Por favor, escolha uma opção valida")
         case "3":
+            print("Alguns bons hábitos: ")
             print("Não substitua a água por outras bebidas para se hidratar")
             print("Beber água antes e após as refeições, sem necessariamente sentir sede")
             print("Consumir frutas e vegetais que contenha muita agua, ")
             print("Saiba mais em https://www.bbc.com/portuguese/articles/c3gzp123yy0o")
         case "4":
-            print("ingestão de álcool ou café")
-            print("substituir água por isotônico")
-            print("ingerir água somente quando sente sede")
+            print("Alguns maus hábitos: ")
+            print("Ingestão de álcool ou café exagerada")
+            print("Substituir água por isotônico")
+            print("Ingerir água somente quando sente sede")
             print("Saiba mais em https://www.bbc.com/portuguese/articles/c3gzp123yy0o")
         case "5":
             if len(usuario) == 0:
-                print("não tem nenhum usuario Cadastrado")
+                print("Não tem nenhum usuario cadastrado, voltando ao menu...")
             else:
-                print(usuario)
+                print("Informações do usuario")
+                print(usuario[0])
+                print(usuario[1])
+                print(f"Quantidade de agua que tem que tomar em litros: {usuario[2] / 1000}")
                 print('Voltando ao menu principal...')
         case "6":
             break

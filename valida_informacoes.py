@@ -2,7 +2,7 @@
 def valida_peso():
     while True:
         try:
-            peso = float(input("Digite o peso do usuario: "))
+            peso = float(input("Digite o peso do usuario em kg(kilogramas): "))
         except ValueError:
             print("Por favor, digite apenas numeros !")
             continue
@@ -15,7 +15,7 @@ def valida_peso():
 
 def valida_nome():
     while True:
-        nome = input("Digite o nome do usuario: ")
+        nome = input("Digite o primeiro nome do usuario: ")
         if not (nome.isalpha()):
             print("Digite um nome valido !")
             continue
