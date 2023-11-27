@@ -1,3 +1,4 @@
+# função responsavel por fazer a validação do peso
 def valida_peso():
     while True:
         try:

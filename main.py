@@ -26,6 +26,7 @@ while True:
                 verificar_cadastro = input()
                 match verificar_cadastro:
                     case "1":
+                        # verifica se tem algum usuario cadastrado
                         if len(usuario) == 0:
                             print("Não existe nenhum usuario cadastrado !")
                         else:
