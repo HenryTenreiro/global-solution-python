@@ -59,8 +59,8 @@ while True:
                         print("Por favor, escolha uma opção valida")
         case "3":
             print("Não substitua a água por outras bebidas para se hidratar")
-            print("Beber água antes e após as refeições")
-            print("Consumir frutas e vegetais ricas em água")
+            print("Beber água antes e após as refeições, sem necessariamente sentir sede")
+            print("Consumir frutas e vegetais que contenha muita agua, ")
             print("Saiba mais em https://www.bbc.com/portuguese/articles/c3gzp123yy0o")
         case "4":
             print("ingestão de álcool ou café")
