@@ -13,6 +13,7 @@ while True:
           "4 - Ver maus hábitos para se manter hidratado\n"
           "5 - Mostrar minha informações de cadastro\n"
           "6 - Sair")
+    # imput criada para o usuario selecionar qual área ele tem interesse em consultar.
     opcao = input()
     print("-------------------------------------------------------------")
     match opcao:
@@ -35,6 +36,7 @@ while True:
                             print(f"Seria o equivalente há {usuario[2] / 250} copos de agua de 250 ml")
                             print("Retornando ao menu de quantidade de agua...")
                     case "2":
+                        # funcao criada para contabilizar a quantidade de água que o usuario deve beber, isso gracas as informações dadas em outros imputs. 
                         while True:
                             peso = valida_informacoes.valida_peso()
                             quantidade_agua = peso * 35
@@ -72,6 +74,7 @@ while True:
             print("Ingerir água somente quando sente sede")
             print("Saiba mais em https://www.bbc.com/portuguese/articles/c3gzp123yy0o")
         case "5":
+            #verifica se tem algum usuario esta cadastrado
             if len(usuario) == 0:
                 print("Não tem nenhum usuario cadastrado, voltando ao menu...")
             else:
