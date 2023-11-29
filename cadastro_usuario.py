@@ -16,7 +16,7 @@ def cadastrar_usuario():
               "2 - não")
         # case 1: informação aceita e retornara para o usuario
         # case 2: informação invalida, retornará para coletar novas informações
-        # case _: informação coloca no imput foi constatada invalida e dará retornará para escolher uma opçaõ valida (1 ou 2).
+        # case _: informação coloca no imput foi constatada invalida e irá retornar para escolher uma opçaõ valida (1 ou 2).
         opcao = input()
         match opcao:
             case "1":
