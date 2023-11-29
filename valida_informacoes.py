@@ -1,4 +1,4 @@
-# função criada para cadastrar o peso e nome do usuario.
+# funções criada para cadastrar o peso e nome do usuario.
 def valida_peso():
     while True:
         try:

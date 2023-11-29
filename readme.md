@@ -36,6 +36,6 @@ Nosso codigo não necessita de nenhuma dependencia ou requisito apenas o python 
 Recomendamos que o usuario tenha uma IDE da sua escolha para executar o codigo, porem ele pode ser executado no proprio terminal do computador
 
 ## Link do video explicando o desafio e o codigo
-
+https://youtu.be/eEep_b_AiAo?si=Hez5BpthTdXAChh_
 
 
